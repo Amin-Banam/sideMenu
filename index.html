@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .menu
+    {
+        width: 200px;
+        height: 640px;
+    }
+    .menu>ul
+    {   height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .menu>ul>li
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+
+    }
+    .menu>ul>li:nth-of-type(1)
+    {
+        width: 100%;
+        background-color: #2d2d2d;
+    }
+    .menu>ul>li:nth-of-type(2)
+    {
+        background-color: greenyellow;
+        width: 80%;
+        transition: 1s;
+    }
+    .menu>ul>li:nth-of-type(3)
+    {
+        background-color: red;
+        width: 75%;
+        transition: 1s;
+    }
+    .menu>ul>li:nth-of-type(4)
+    {
+        background-color: orange;
+        width: 70%;
+        transition: 1s;
+    }
+    .menu>ul>li:nth-of-type(5)
+    {
+        background-color: blue;
+        width: 65%;
+        transition: 1s;
+    }
+    .menu>ul>li:nth-of-type(6)
+    {
+        background-color: palevioletred;
+        width: 60%;
+        transition: 1s;
+    }
+    .menu>ul>li>a
+    {
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        padding-left: 3px; 
+        height: 100%;
+        width: 100%;
+    }
+    .menu>ul>li:nth-of-type(1):hover
+    {
+        font-size: large;
+    }
+    .menu>ul>li:nth-of-type(2):hover
+    {
+        width: 100%;
+        font-size: large;
+        background-color: #2d2d2d;
+    }
+    .menu>ul>li:nth-of-type(3):hover
+    {
+        width: 100%;
+        font-size: large;
+        background-color: #2d2d2d;
+    }
+    .menu>ul>li:nth-of-type(4):hover
+    {
+        width: 100%;
+        font-size: large;
+        background-color: #2d2d2d;
+    }
+    .menu>ul>li:nth-of-type(5):hover
+    {
+        width: 100%;
+        font-size: large;
+        background-color: #2d2d2d;
+    }
+    .menu>ul>li:nth-of-type(6):hover
+    {
+        width: 100%;
+        font-size: large;
+        background-color: #2d2d2d;
+    }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href=""><b><big>ES</big></b><br>Elemental Shift</a></li>
+            <li><a href=""><b><big>Bg</big></b><br> Blog</a></li>
+            <li><a href=""><b><big>Po</big></b><br> Portfolio</a></li>
+            <li><a href=""><b><big>Xp</big></b><br> Laboratory</a></li>
+            <li><a href=""><b><big>Ab</big></b><br> Ab</a></li>
+            <li><a href=""><b><big>C</big></b><br> Contact</a></li>
+        </ul>
+    </div>   
+</body>
+</html>
